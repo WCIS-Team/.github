@@ -1,6 +1,7 @@
 <div align="center">
 
 # WCIS-Team
+https://wcis-team.github.io/WCIS-FPAI-wiki/
 
 **2026 全国大学生嵌入式芯片与系统设计竞赛 · FPGA 创新设计赛道（FPAI）**
 
