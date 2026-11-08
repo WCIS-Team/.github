@@ -25,6 +25,8 @@ https://wcis-team.github.io/WCIS-FPAI-wiki/
 
 > 本仓库为公开源码版：厂商受限资源与完整安装载荷不随 Git 分发，边界与第三方许可见仓库 [README](https://github.com/WCIS-Team/fmql30tai-sdi-npu-face-recognition#readme) 与 [THIRD_PARTY_NOTICES](https://github.com/WCIS-Team/fmql30tai-sdi-npu-face-recognition/blob/main/THIRD_PARTY_NOTICES.md)。
 
+旧PS控制中心 https://github.com/WCIS-Team/HA4FPAI/tree/archive-2026-11-06
+
 ## 主要仓库
 
 | 仓库 | 简介 |
