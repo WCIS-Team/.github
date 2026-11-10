@@ -38,7 +38,8 @@ https://wcis-team.github.io/WCIS-FPAI-wiki/
 | [ERNIE-4.5-0.3B-PT4icraft430tai](https://github.com/WCIS-Team/ERNIE-4.5-0.3B-PT4icraft430tai) | ERNIE-4.5-0.3B-PT 移植到 iCraft 30TAI（ZG330） |
 | [Qwen2_0.5B_zg3.36.1_axi_demo](https://github.com/WCIS-Team/Qwen2_0.5B_zg3.36.1_axi_demo) | 厂商 Qwen2-0.5B demo 镜像（iCraft 3.36.1），并入我方板端部署改动 |
 | [mddocs-path-i18n](https://github.com/WCIS-Team/mddocs-path-i18n) | Markdown 目录树的路径级本地化：翻译文件与目录名，并修复全部链接 |
-| [WCIS-FPAI-repos](https://github.com/WCIS-Team/WCIS-FPAI-repos) | WCIS 归档根 |
+| [WCIS-FPAI-repos](https://github.com/WCIS-Team/WCIS-FPAI-repos) | WCIS 代码归档根：以子模块钉住各项目（`tkmFPGA`、`fmql30tai-sdi-npu-face-recognition`、`loomos` 等），只存指针、不含源码 |
+| [tkmFPGA](https://github.com/WCIS-Team/tkmFPGA) | tkm 的 FPGA 项目集合：PL 以太网 PS GEM1 EMIO 透传（`pl_eth_psgem1_emio`）、HD-SDI→PS DDR 采集（`sdi-psddr`）、SDI→HDMI（`sdi2hdmi`）、SDI+VPU 实时推流（`vpu-live`）；原创硬件部分采用 Solderpad Hardware License 2.1 |
 
 ## 赛事信息
 
@@ -46,3 +47,8 @@ https://wcis-team.github.io/WCIS-FPAI-wiki/
 - **赛道**：FPGA 创新设计赛道（FPAI）
 - **官网**：<http://fpgachina.cn/>
 - **目标平台**：复旦微 FMQL30TAI / FPAI30TAI「悟净」开发板（CPU + FPGA + NPU）
+
+## 许可
+
+- 本仓库（组织主页与社区健康文件）：MIT。
+- 各代码仓库以其自身 `LICENSE`／`LICENSE_SCOPE.md` 为准。其中 [`tkmFPGA`](https://github.com/WCIS-Team/tkmFPGA) 的原创硬件设计、以及 [`fmql30tai-sdi-npu-face-recognition`](https://github.com/WCIS-Team/fmql30tai-sdi-npu-face-recognition) 的自研硬件 RTL（`源码/fpga_source/rtl/wcis/`）采用 **Solderpad Hardware License 2.1**（`Apache-2.0 WITH SHL-2.1`；后者与仓库根 MIT 双许可，任选其一）。厂商 IP、厂商受限材料与第三方组件不在其列，按各自原条款使用。
